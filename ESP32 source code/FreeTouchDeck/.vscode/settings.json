@@ -1,0 +1,20 @@
+{
+    "cmake.configureOnOpen": false,
+    "editor.formatOnType": true,
+    "files.associations": {
+        "*.cps": "javascript",
+        "*.tcc": "cpp",
+        "limits": "cpp",
+        "random": "cpp",
+        "xutility": "cpp",
+        "*.h": "cpp",
+        "functional": "cpp",
+        "type_traits": "cpp",
+        "string_view": "cpp",
+        "iosfwd": "cpp",
+        "streambuf": "cpp",
+        "xloctime": "cpp",
+        "istream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
