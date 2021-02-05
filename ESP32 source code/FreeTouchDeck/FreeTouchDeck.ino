@@ -870,6 +870,7 @@ void loop(void)
           }
           else if (b == 1) // Button 1
           {
+            Serial.println("Menu2");
             pageNum = 2;
             drawKeypad();
           }
@@ -996,8 +997,10 @@ void loop(void)
 
         else if (pageNum == 2) // Menu 2
         {
+
           if (b == 0) // Button 0
           {
+            Serial.println("Menu2-0");
             bleKeyboardAction(menu2.button0.actions.action0, menu2.button0.actions.value0, menu2.button0.actions.symbol0);
             bleKeyboardAction(menu2.button0.actions.action1, menu2.button0.actions.value1, menu2.button0.actions.symbol1);
             bleKeyboardAction(menu2.button0.actions.action2, menu2.button0.actions.value2, menu2.button0.actions.symbol2);
@@ -1016,6 +1019,7 @@ void loop(void)
           }
           else if (b == 1) // Button 1
           {
+            Serial.println("Menu2-1");
             bleKeyboardAction(menu2.button1.actions.action0, menu2.button1.actions.value0, menu2.button1.actions.symbol0);
             bleKeyboardAction(menu2.button1.actions.action1, menu2.button1.actions.value1, menu2.button1.actions.symbol1);
             bleKeyboardAction(menu2.button1.actions.action2, menu2.button1.actions.value2, menu2.button1.actions.symbol2);
@@ -1034,6 +1038,7 @@ void loop(void)
           }
           else if (b == 2) // Button 2
           {
+            Serial.println("Menu2-2");
             bleKeyboardAction(menu2.button2.actions.action0, menu2.button2.actions.value0, menu2.button2.actions.symbol0);
             bleKeyboardAction(menu2.button2.actions.action1, menu2.button2.actions.value1, menu2.button2.actions.symbol1);
             bleKeyboardAction(menu2.button2.actions.action2, menu2.button2.actions.value2, menu2.button2.actions.symbol2);
@@ -1052,6 +1057,7 @@ void loop(void)
           }
           else if (b == 3) // Button 3
           {
+            Serial.println("Menu2-3");
             bleKeyboardAction(menu2.button3.actions.action0, menu2.button3.actions.value0, menu2.button3.actions.symbol0);
             bleKeyboardAction(menu2.button3.actions.action1, menu2.button3.actions.value1, menu2.button3.actions.symbol1);
             bleKeyboardAction(menu2.button3.actions.action2, menu2.button3.actions.value2, menu2.button3.actions.symbol2);
@@ -1070,6 +1076,7 @@ void loop(void)
           }
           else if (b == 4) // Button 4
           {
+            Serial.println("Menu2-4");
             bleKeyboardAction(menu2.button4.actions.action0, menu2.button4.actions.value0, menu2.button4.actions.symbol0);
             bleKeyboardAction(menu2.button4.actions.action1, menu2.button4.actions.value1, menu2.button4.actions.symbol1);
             bleKeyboardAction(menu2.button4.actions.action2, menu2.button4.actions.value2, menu2.button4.actions.symbol2);
