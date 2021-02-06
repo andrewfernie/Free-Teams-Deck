@@ -15,7 +15,8 @@
                 "C:\\Users\\andre\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\**",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\**",
                 "C:\\Users\\andre\\Repositories\\ESP32\\libraries\\**",
-                "C:\\Users\\andre\\Repositories\\ESP32\\Free-Teams-Deck\\ESP32 source code\\FreeTouchDesk\\libraries\\**"
+                "C:\\Users\\andre\\Repositories\\ESP32\\Free-Teams-Deck\\ESP32 source code\\FreeTouchDesk\\libraries\\**",
+                "C:\\Users\\andre\\Repositories\\ESP32\\Free-Teams-Deck - Copy\\FreeTouchDeck\\libraries\\**"
             ],
             "forcedInclude": [],
             "intelliSenseMode": "msvc-x64",
