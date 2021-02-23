@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using FreeDeckWindows.Properties;
 
 namespace FreeDeck
 {
@@ -59,14 +61,29 @@ namespace FreeDeck
 
             Console.ResetColor();
 
-            //Serial communication parameters
-            Console.Write(" COM Port Number: ");
-            string comPort = Console.ReadLine();
-            Console.Write(" Bound Rate: ");
-            int boundRate = int.Parse(Console.ReadLine());
-            Console.Write(" Status: ");
-            
+            string line;
 
+            //Serial communication parameters
+            string comPort = Settings.Default.ComPort; 
+            Console.Write(" COM Port Number (" + comPort + "): ");
+            line = Console.ReadLine();
+            if (line != "") {
+                comPort = line;
+                Settings.Default.ComPort = comPort;
+                Settings.Default.Save();
+            }
+
+
+            int boundRate = Settings.Default.BaudRate;
+            Console.Write(" Bound Rate ("+ boundRate.ToString() + "): ");
+            line = Console.ReadLine();
+            if (line != "") {
+                boundRate = int.Parse(line);
+                Settings.Default.BaudRate = boundRate;
+                Settings.Default.Save();
+            }
+
+            Console.Write(" Status: ");
 
             //Set the datareceived event handler
             try

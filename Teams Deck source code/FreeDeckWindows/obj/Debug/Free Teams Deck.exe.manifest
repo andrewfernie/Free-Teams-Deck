@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Free Teams Deck.exe" size="122880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Free Teams Deck.exe" size="124416">
       <assemblyIdentity name="Free Teams Deck" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yMGrFH3gR4kOw26utDs3h3KDS3bqPZ+N2FDjqzEqZto=</dsig:DigestValue>
+        <dsig:DigestValue>5L5uEVaK1PZ4zk98TBTepQjjdjXQX2wNEQpaajC+HZ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>3/SaG4z0MGkXQMEbj28j0Aj+V+qKIMfcTNk5zeAC1UI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Free Teams Deck.exe.config" size="189">
+  <file name="Free Teams Deck.exe.config" size="1048">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+      <dsig:DigestValue>L+NYzqQM3rUMieXoHfo2fkqmog6jE/zMb/cfmtvlurw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Free Teams Deck.ico" size="114259">
